@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\koco\Documents\DecouverteCplusplus
+CMAKE_SOURCE_DIR = C:\Users\koco\Desktop\Cplusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\koco\Desktop\Cplusplus\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Documents.dir/depend.make
@@ -69,46 +69,46 @@ include CMakeFiles/Documents.dir/progress.make
 include CMakeFiles/Documents.dir/flags.make
 
 CMakeFiles/Documents.dir/main.cpp.obj: CMakeFiles/Documents.dir/flags.make
-CMakeFiles/Documents.dir/main.cpp.obj: C:/Users/koco/Documents/DecouverteCplusplus/main.cpp
+CMakeFiles/Documents.dir/main.cpp.obj: C:/Users/koco/Desktop/Cplusplus/main.cpp
 CMakeFiles/Documents.dir/main.cpp.obj: CMakeFiles/Documents.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Documents.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/main.cpp.obj -MF CMakeFiles\Documents.dir\main.cpp.obj.d -o CMakeFiles\Documents.dir\main.cpp.obj -c C:\Users\koco\Documents\DecouverteCplusplus\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Desktop\Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Documents.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/main.cpp.obj -MF CMakeFiles\Documents.dir\main.cpp.obj.d -o CMakeFiles\Documents.dir\main.cpp.obj -c C:\Users\koco\Desktop\Cplusplus\main.cpp
 
 CMakeFiles/Documents.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Documents.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Documents\DecouverteCplusplus\main.cpp > CMakeFiles\Documents.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Desktop\Cplusplus\main.cpp > CMakeFiles\Documents.dir\main.cpp.i
 
 CMakeFiles/Documents.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Documents.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Documents\DecouverteCplusplus\main.cpp -o CMakeFiles\Documents.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Desktop\Cplusplus\main.cpp -o CMakeFiles\Documents.dir\main.cpp.s
 
 CMakeFiles/Documents.dir/personnage.cpp.obj: CMakeFiles/Documents.dir/flags.make
-CMakeFiles/Documents.dir/personnage.cpp.obj: C:/Users/koco/Documents/DecouverteCplusplus/personnage.cpp
+CMakeFiles/Documents.dir/personnage.cpp.obj: C:/Users/koco/Desktop/Cplusplus/personnage.cpp
 CMakeFiles/Documents.dir/personnage.cpp.obj: CMakeFiles/Documents.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Documents.dir/personnage.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/personnage.cpp.obj -MF CMakeFiles\Documents.dir\personnage.cpp.obj.d -o CMakeFiles\Documents.dir\personnage.cpp.obj -c C:\Users\koco\Documents\DecouverteCplusplus\personnage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Desktop\Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Documents.dir/personnage.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/personnage.cpp.obj -MF CMakeFiles\Documents.dir\personnage.cpp.obj.d -o CMakeFiles\Documents.dir\personnage.cpp.obj -c C:\Users\koco\Desktop\Cplusplus\personnage.cpp
 
 CMakeFiles/Documents.dir/personnage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Documents.dir/personnage.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Documents\DecouverteCplusplus\personnage.cpp > CMakeFiles\Documents.dir\personnage.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Desktop\Cplusplus\personnage.cpp > CMakeFiles\Documents.dir\personnage.cpp.i
 
 CMakeFiles/Documents.dir/personnage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Documents.dir/personnage.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Documents\DecouverteCplusplus\personnage.cpp -o CMakeFiles\Documents.dir\personnage.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Desktop\Cplusplus\personnage.cpp -o CMakeFiles\Documents.dir\personnage.cpp.s
 
 CMakeFiles/Documents.dir/ennemis.cpp.obj: CMakeFiles/Documents.dir/flags.make
-CMakeFiles/Documents.dir/ennemis.cpp.obj: C:/Users/koco/Documents/DecouverteCplusplus/ennemis.cpp
+CMakeFiles/Documents.dir/ennemis.cpp.obj: C:/Users/koco/Desktop/Cplusplus/ennemis.cpp
 CMakeFiles/Documents.dir/ennemis.cpp.obj: CMakeFiles/Documents.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Documents.dir/ennemis.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/ennemis.cpp.obj -MF CMakeFiles\Documents.dir\ennemis.cpp.obj.d -o CMakeFiles\Documents.dir\ennemis.cpp.obj -c C:\Users\koco\Documents\DecouverteCplusplus\ennemis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\koco\Desktop\Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Documents.dir/ennemis.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Documents.dir/ennemis.cpp.obj -MF CMakeFiles\Documents.dir\ennemis.cpp.obj.d -o CMakeFiles\Documents.dir\ennemis.cpp.obj -c C:\Users\koco\Desktop\Cplusplus\ennemis.cpp
 
 CMakeFiles/Documents.dir/ennemis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Documents.dir/ennemis.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Documents\DecouverteCplusplus\ennemis.cpp > CMakeFiles\Documents.dir\ennemis.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\koco\Desktop\Cplusplus\ennemis.cpp > CMakeFiles\Documents.dir\ennemis.cpp.i
 
 CMakeFiles/Documents.dir/ennemis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Documents.dir/ennemis.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Documents\DecouverteCplusplus\ennemis.cpp -o CMakeFiles\Documents.dir\ennemis.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\koco\Desktop\Cplusplus\ennemis.cpp -o CMakeFiles\Documents.dir\ennemis.cpp.s
 
 # Object files for target Documents
 Documents_OBJECTS = \
@@ -126,7 +126,7 @@ Documents.exe: CMakeFiles/Documents.dir/build.make
 Documents.exe: CMakeFiles/Documents.dir/linkLibs.rsp
 Documents.exe: CMakeFiles/Documents.dir/objects1
 Documents.exe: CMakeFiles/Documents.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Documents.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\koco\Desktop\Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Documents.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Documents.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Documents.dir/clean:
 .PHONY : CMakeFiles/Documents.dir/clean
 
 CMakeFiles/Documents.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\koco\Documents\DecouverteCplusplus C:\Users\koco\Documents\DecouverteCplusplus C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug C:\Users\koco\Documents\DecouverteCplusplus\cmake-build-debug\CMakeFiles\Documents.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\koco\Desktop\Cplusplus C:\Users\koco\Desktop\Cplusplus C:\Users\koco\Desktop\Cplusplus\cmake-build-debug C:\Users\koco\Desktop\Cplusplus\cmake-build-debug C:\Users\koco\Desktop\Cplusplus\cmake-build-debug\CMakeFiles\Documents.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Documents.dir/depend
 

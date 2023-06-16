@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/koco/Documents/DecouverteCplusplus/ennemis.cpp" "CMakeFiles/Documents.dir/ennemis.cpp.obj" "gcc" "CMakeFiles/Documents.dir/ennemis.cpp.obj.d"
-  "C:/Users/koco/Documents/DecouverteCplusplus/main.cpp" "CMakeFiles/Documents.dir/main.cpp.obj" "gcc" "CMakeFiles/Documents.dir/main.cpp.obj.d"
-  "C:/Users/koco/Documents/DecouverteCplusplus/personnage.cpp" "CMakeFiles/Documents.dir/personnage.cpp.obj" "gcc" "CMakeFiles/Documents.dir/personnage.cpp.obj.d"
+  "C:/Users/koco/Desktop/Cplusplus/ennemis.cpp" "CMakeFiles/Documents.dir/ennemis.cpp.obj" "gcc" "CMakeFiles/Documents.dir/ennemis.cpp.obj.d"
+  "C:/Users/koco/Desktop/Cplusplus/main.cpp" "CMakeFiles/Documents.dir/main.cpp.obj" "gcc" "CMakeFiles/Documents.dir/main.cpp.obj.d"
+  "C:/Users/koco/Desktop/Cplusplus/personnage.cpp" "CMakeFiles/Documents.dir/personnage.cpp.obj" "gcc" "CMakeFiles/Documents.dir/personnage.cpp.obj.d"
   )
 
 # Targets to which this target links.

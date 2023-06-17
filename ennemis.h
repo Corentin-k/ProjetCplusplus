@@ -44,8 +44,9 @@ private:
 
     static int dernierIDSquelette;
 public:
+
     Squelette() : ennemi("", 0, 0,0,dernierIDSquelette) {}
-    Squelette(const string& nom, int pv = 200, int attaque = 10, int resistance = 150, int bouclier=50,int ID=dernierIDSquelette++) : ennemi(nom, pv, attaque,bouclier,ID) {}
+    Squelette(const string& nom, int pv = 100, int attaque = 25, int bouclier=15,int ID=dernierIDSquelette++) : ennemi(nom, pv, attaque,bouclier,ID) {}
     void affiche() {
         ennemi::affiche();
 
@@ -61,7 +62,7 @@ private:
 
     static int dernierIDSorcier;
 public:
-    Sorcier(const string& nom, int pv = 300, int attaque = 5, int mana = 100, int bouclier=50,int ID=dernierIDSorcier++) : ennemi(nom, pv, attaque,bouclier,ID) {}
+    Sorcier(const string& nom, int pv = 100, int attaque = 15, int mana = 100, int bouclier=25,int ID=dernierIDSorcier++) : ennemi(nom, pv, attaque,bouclier,ID) {}
     Sorcier() : ennemi("", 0, 0, 0,dernierIDSorcier) {}
 
     void affiche() {

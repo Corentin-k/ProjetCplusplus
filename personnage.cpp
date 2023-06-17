@@ -13,18 +13,12 @@ personnage::personnage(const string& nom,int pv, int attaque, int bouclier, int 
         vitesse_deplacement{vitesse_deplacement},
         vitesse_attaque{vitesse_attaque}
         {}
-void personnage::affiche_perso(){
+void personnage::affiche_specificites() {
     cout << "\033[35m";// Blanc
     cout << nom << "\033[0m\n";
-    affiche();
+
 }
 
-void personnage::affiche(){
-
-    cout<<"\033[31;40mPV : \033[0m\033[31m" << pv <<"\033[0m\n"
-         << "\033[32;40mATTAQUE : \033[0m\033[32m" << attaque << "\033[0m\n" //sur fond noir ;40
-         <<endl;
-};
 void personnage::utiliserObjet(const string& objet) {
     cout << "Le personnage utilise l'objet : " << objet << endl;
 }
@@ -69,10 +63,10 @@ void chevalier::augmenterAttaque(int bonus) {
     attaque += bonus;
 }
 
-void chevalier::affiche_chevalier() {
+
+void chevalier::affiche_specificites(){
     cout << "\033[36m";
     cout << nom <<"\033[0m\n";
-    personnage::affiche();
 
 }
 
@@ -89,10 +83,8 @@ void mage::invoquerCreature(const string& creature) {
     cout << "Le mage invoque la créature : " << creature << endl;
 }
 
-void mage::affiche_mage() {
-    cout << "\033[33m"; // Jaune
-    cout << nom <<"\033[0m\n" ;
-    personnage::affiche();
 
+void mage::affiche_specificites(){
+cout << "\033[33m"; // Jaune
+cout << nom<<"\n";
 }
-

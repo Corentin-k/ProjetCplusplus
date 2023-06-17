@@ -9,7 +9,7 @@ T* creerTableauEnnemis(int taille,string tpe) {
     T* tableau = new T[taille];
     for (int i = 0; i < taille; ++i) {
         string nom = tpe + to_string(i);
-        T ennemi(nom,200,10);
+        T ennemi(nom);
         tableau[i] = ennemi;
     }
     return tableau;
@@ -21,27 +21,31 @@ int main() {
     int choix;
     cout<<"Bienvenue dans ce monde. Vous allez incarné un héro et devoir battre tous les ennemis.\n";
     cout<<"Choissiez votre héros : \n";
-    cout<<" 1-Le roi Arhtur, célèbre chevalier de la table ronde qui a une attaque redoutable mais est tres lent\n";
-    cout<<"2- Gandalf, célébre magicien il attaque rapidement mais n'as pas de bouclier \n";
-    cout<<"Votre choix : ";
-    choix=scanf("%d",&choix);
-    while (choix!=1 && choix!= 2){
-        cout << "Choix invalide. Veuillez entrer 1 ou 2 :";
-        choix=getchar();
-        choix=scanf("%d",&choix);
+    cout<<"   1-Le roi Arhtur, célèbre chevalier de la table ronde qui a une attaque redoutable mais est tres lent\n";
+    cout<<"   2- Gandalf, célébre magicien il attaque rapidement mais n'as pas de bouclier \n";
+    cout<<">> Votre choix : ";
+    cin >> choix;
+
+    while (choix!=1 && choix!= 2 && choix!=3){
+        cout << ">> Choix invalide. Veuillez entrer 1 ou 2 :";
+        cin.clear();
+        rewind(stdin);
+        cin >> choix;
     }
 
     personnage* heros = nullptr;
-
+    cout <<">> Vous avez choisi\n"<<endl;
     if (choix == 1) {
         heros = new chevalier("ARTHUR", 70);
     } else if (choix == 2) {
         heros = new mage("Gandalf");
     }
-    if (heros != nullptr) {
-        heros->affiche();
+    else{
+        heros= new personnage("Coco",0,0,0,0,0);
     }
-    cout<<heros->getBouclier();
+    if (heros != nullptr) {
+        heros->affiche(heros);
+    }
 
     delete heros;
     /*

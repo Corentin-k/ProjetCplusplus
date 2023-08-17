@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\koco\Desktop\Cplusplus -B C:\Users\koco\Desktop\Cplusplus\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/koco/Desktop/Cplusplus/cmake-build-debug
+"C:\Program Files (x86)\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\ckerv\OneDrive - Efrei\Projet Perso\Cplusplus" -B "C:\Users\ckerv\OneDrive - Efrei\Projet Perso\Cplusplus\cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/ckerv/OneDrive - Efrei/Projet Perso/Cplusplus/cmake-build-debug

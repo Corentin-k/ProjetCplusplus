@@ -13,20 +13,25 @@ using namespace std;
 class personnage{
 
 protected:
-        string nom;
-        int pv;
-        int attaque;
-        int bouclier;
+
+
+
         int vitesse_deplacement;
         int vitesse_attaque;
 
 public:
+    string nom;
+    string type;
+    int bouclier;
+    string paragraphe;
+    int pv;
+    int attaque;
     virtual ~personnage(){cout<<"Le personnage est mort\n";} //destructeur
     personnage(const string& nom, int pv, int attaque, int bouclier, int vitesse_deplacement, int vitesse_attaque); //constructeur
 
 
 
-    inline int getBouclier() {return bouclier;};
+    void setBouclier(int);
     void attaqueEnnemi(ennemi& e);
     void reduirePV(int valeur);
     void reduireBouclier(int valeur);
@@ -37,8 +42,9 @@ public:
     template <typename T>
     void affiche(T* perso) {
         perso->affiche_specificites();
-        cout << "\033[31;40mPV : \033[0m\033[31m" << pv << "\033[0m\n"
-             << "\033[32;40mATTAQUE : \033[0m\033[32m" << attaque << "\033[0m\n"
+        cout << "\033[31;40mPV :\033[0m\033[31m " << pv << "\033[0m\n"
+             << "\033[32;40mATTAQUE :\033[0m\033[32m " << attaque << "\033[0m\n"
+             << "\033[34;40mBOUCLIER :\033[0m\033[34m " << bouclier << "\033[0m\n"
              << endl;
     }
 

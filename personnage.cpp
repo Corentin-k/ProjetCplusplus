@@ -13,6 +13,10 @@ personnage::personnage(const string& nom,int pv, int attaque, int bouclier, int 
         vitesse_deplacement{vitesse_deplacement},
         vitesse_attaque{vitesse_attaque}
         {}
+
+void personnage::setBouclier(int AjoutBouclier){
+    bouclier=AjoutBouclier;
+}
 void personnage::affiche_specificites() {
     cout << "\033[35m";// Blanc
     cout << nom << "\033[0m\n";

@@ -10,14 +10,15 @@ int Sorcier::dernierIDSorcier = 0;
 void ennemi::affiche(){
     cout<<nom<<'\n';
     cout<<"\033[31;40mPV : \033[0m\033[31m" << pv <<"\033[0m\n"
-        << "\033[32;40mATTAQUE : \033[0m\033[32m" << attaque << "\033[0m" //sur fond noir ;40
+        << "\033[32;40mATTAQUE : \033[0m\033[32m" << attaque << "\033[0m\n" //sur fond noir ;40
+        << "\033[34;40mBOUCLIER :\033[0m\033[34m " << bouclier << "\033[0m\n"
         <<endl;
 }
 
 void ennemi::attaquePersonnage(personnage& p) {
     int degatsBouclier = attaque;
-    if (degatsBouclier > p.getBouclier()) {
-        degatsBouclier = p.getBouclier();
+    if (degatsBouclier > bouclier) {
+        degatsBouclier = bouclier;
     }
     p.reduireBouclier(degatsBouclier);
 
